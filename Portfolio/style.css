@@ -13,7 +13,6 @@
     padding: 0px;
     margin-left:4px;
 }
-
 .btn{
     display: grid;
     place-items: center;
@@ -26,7 +25,6 @@
     cursor: pointer;
     transition: transform 0.5s;
   }
-  
   .btn:hover {
     box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
             inset -4px -4px 6px -1px rgba(255,255,255,0.7),
@@ -36,29 +34,17 @@
     border: 1px solid rgba(0,0,0,0.1);
     transform: translateY(0.5em);
   }
-  
   .btn svg {
     transition: transform 0.5s;
   }
-  
   .btn:hover svg {
     transform: scale(0.9);
     fill: #333333;
   }
-  
-  
-
-/* box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset; */
-
-/* .card{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-} */
 .card{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    justify-content: center;
 }
-/* .card{
-    width: 250px;
-} */
 .card-body>svg{
     width: 20px;
     color: crimson;
@@ -69,13 +55,18 @@
 .container{
     margin-top: 10px;
 }
+.card-body>.salt{
+    background-color: black;
+}
+.card-body>.olx{
+    background: aqua;
+}
 .card-body>h2{
     text-align: center;
 }
 .card-body {
     text-align: center;
 }
-
 .card-body>img{
     color: crimson;
     width:auto;
@@ -83,10 +74,6 @@
     text-align: justify;
 }
 @media only screen and (max-width:502x) {
-    /* .col{
-        background-color: antiquewhite;
-        width: 100%;
-    } */
     .col>card{
         background-color: aquamarine;
         width: 100%;
